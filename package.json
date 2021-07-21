@@ -1,0 +1,14 @@
+{
+  "name": "my_new_website",
+  "version": "1.0.0",
+  "description": "My new Webiste",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ayush Bahuguna",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
