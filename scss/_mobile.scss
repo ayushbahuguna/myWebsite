@@ -30,7 +30,7 @@
     }
 
     &#home h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
 
     &#home h2 {
@@ -42,7 +42,7 @@
     }
 
     &#about h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
 
     &#about h2 {
@@ -54,10 +54,22 @@
     }
 
     &#work h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
 
     &#work h2 {
+      font-size: 1.5rem;
+    }
+
+    &#contact {
+      padding: 2rem;
+    }
+
+    &#contact h1 {
+      font-size: 4rem;
+    }
+
+    &#contact h2 {
       font-size: 1.5rem;
     }
   }
@@ -103,6 +115,12 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .boxes {
+    div {
+      font-size: 1.3rem;
+    }
+  }
 }
 
 // Mobile phones
@@ -120,9 +138,24 @@
     &#work h1 {
       margin-top: 10vh;
     }
+
+    &#contact h1 {
+      margin-top: 10vh;
+    }
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .boxes {
+    div {
+      font-size: 1.1rem;
+      padding: 1.2rem 2.2rem;
+
+      &:hover {
+        padding: 1rem 2rem;
+      }
+    }
   }
 }
