@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+  animation: slideInFromLeft 0.2s ease-in;
 }
 
 body {
@@ -190,6 +191,15 @@ main {
   background: darken($color: $primary-color, $amount: 10);
   color: set-text-color($primary-color);
   height: 60px;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @import 'mobile';

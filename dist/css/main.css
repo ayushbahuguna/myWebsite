@@ -91,7 +91,8 @@
   transition-delay: 0.4s; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  animation: slideInFromLeft 0.2s ease-in; }
 
 body {
   background: #444;
@@ -237,6 +238,12 @@ main {
   color: #fff;
   height: 60px; }
 
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
@@ -260,6 +267,9 @@ main {
       font-size: 1.5rem; }
     main#about {
       padding: 2rem; }
+      main#about .about-info {
+        text-align: justify;
+        letter-spacing: 0.001rem; }
     main#about h1 {
       font-size: 4rem; }
     main#about h2 {

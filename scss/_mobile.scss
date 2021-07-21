@@ -39,6 +39,11 @@
 
     &#about {
       padding: 2rem;
+
+      .about-info {
+        text-align: justify;
+        letter-spacing: 0.001rem;
+      }
     }
 
     &#about h1 {
